@@ -5,7 +5,7 @@
     border: 1px solid;
 }
 body {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 /* Styling the main page */
@@ -96,11 +96,11 @@ body {
     width: 20vw;
     padding: 1vw;
     margin-left: 10vw;
-    border: 2px solid;
+    /* border: 2px solid; */
     border-radius: 10px;
 }
 .main-btn {
-    background-color: #FF8200;
+    background-color: #00bf63;
     font-size: 1.1rem;
     font-weight: 700;
 }
@@ -163,22 +163,37 @@ body {
     align-items: center;
     padding: 2vh 0;
 }
-.acc-body .left nav div {
+.acc-body .left nav a {
     width: 12vw;
     padding: 1vw;
     display: flex;
     border-radius: 10px;
+    text-decoration: none;
 }
-.acc-body .left nav div:first-of-type {
+.acc-body .left nav a:first-of-type {
     display: flex;
+    align-items: center;
     gap: 1vw;
 }
-.acc-body .left nav div:first-of-type i {
-    font-size: 1.5rem;
+.acc-body .left nav a:first-of-type i {
+    font-size: 1.5rem; 
 }
 .acc-body .right {
     width: 85vw;
     height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acc-body .right .nav-content {
+    width: 82vw;
+    height: 75vh;
+}
+.acc-body .right #socials {
+    display: none;
+}
+.acc-body .right #chats {
+    display: none;
 }
 /* Account */
 
